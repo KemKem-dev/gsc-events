@@ -188,6 +188,7 @@
     .about-us {
         display: grid;
         grid-template-columns: 1fr 1fr;
+        grid-gap: 20px;
         padding: 20px;
         background: var(--body-color);
         margin-top: 20px;
@@ -507,6 +508,13 @@
         .about-us {
             display: grid;
             grid-template-columns: 1fr;
+        }
+        .about-image {
+            margin-top: 10px;
+        }
+        .btn-btn a {
+            margin-top: 10px;
+            margin-bottom: 20px;
         }
         .projects {
             display: grid;
