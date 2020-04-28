@@ -538,7 +538,9 @@
          #newsletter .button1 {
             align-self: flex-start;
             display: inline-flex;
+            padding: 10px 10px;
             font-size: 1rem;
+             margin-top: 10px;
         }
         #newsletter h1 {
             text-align: center;
