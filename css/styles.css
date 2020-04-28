@@ -500,10 +500,13 @@
             margin: 20px 0;
         }
         .title {
-            font-size: 1.3rem;
+            font-size: 1.4rem;
         }
         .top-text p {
-            font-size: 1.2rem;
+            font-size: 1.3rem;
+        }
+        .bottom-text p {
+            font-size: 1.3rem;
         }
         .about-us {
             display: grid;
