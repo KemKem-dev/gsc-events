@@ -562,7 +562,7 @@
         }
         .card {
             max-width: 100%;
-            height: auto;
+            height: 290px;
             margin: 20px 0;
         }
         .title {
