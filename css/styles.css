@@ -100,7 +100,6 @@
     }
     
     form {
-        float: right;
         margin-top: 15px;
     }
     
@@ -541,6 +540,7 @@
             font-size: 1.2rem;
             display: block;
             width: 50%;
+            justify-content: center;
         }
         #newsletter h1 {
             text-align: center;
