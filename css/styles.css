@@ -1,6 +1,6 @@
     @import url('https://fonts.googleapis.com/css?family= Abhaya+Libre|Baloo+Thambi+2|EB+Garamond|Galada|Judson|Ibarra+Real+Nova|Lato|Lobster|Martel|Montserrat|Neuton|Noto+Serif|Open+Sans|Oswald|PT+Serif+Caption|Playfair+Display+SC|Roboto|Unna&display=swap');
      :root {
-        --primary-color: #1b9bff;
+        --primary-color: #2c7873;
         --gray-color: #333;
         --body-color: #f2f2f2;
         --main-font: 'Noto Serif';
@@ -19,15 +19,15 @@
     }
     
     nav {
-        background: #35424a;
+        background: #004445;
         height: 80px;
         width: 100%;
-        border-bottom: #fb6542 3px solid;
+        border-bottom: #2c7873 3px solid;
     }
     
     nav .logo {
-        color: var(--primary-color);
-        font-size: 2rem;
+        color: #1b9bff;
+        font-size: 1.4rem;
         line-height: 80px;
         padding: 0 100px;
         font-weight: bold;
@@ -36,7 +36,6 @@
     
     nav ul {
         float: right;
-        margin-right: 20px;
     }
     
     nav ul li {
@@ -46,8 +45,8 @@
     }
     
     nav ul li a {
-        color: var(--primary-color);
-        font-size: 1.6rem;
+        color: #1b9bff;
+        font-size: 1rem;
         font-family: var(--main-font);
         padding: 7px 13px;
         border-radius: 4px;
@@ -115,7 +114,7 @@
     
     .button1 {
         height: 38px;
-        background: #fb6542;
+        background: #004445;
         border: 0;
         padding-left: 20px;
         padding-right: 20px;
@@ -128,7 +127,7 @@
     
     .service {
         text-align: center;
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         font-family: var(--main-font);
         text-transform: uppercase;
         color: var(--gray-color);
@@ -171,7 +170,7 @@
     }
     
     .title {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
         font-weight: 600;
         color: var(--primary-color);
         font-family: var(--main-font);
@@ -216,7 +215,7 @@
         text-decoration: none;
         font-size: 1.1rem;
         color: #fff;
-        background: #fb6542;
+        background: #004445;
         padding: 10px 10px;
         border-radius: 5px;
         display: inline-flex;
@@ -256,7 +255,7 @@
         text-decoration: none;
         font-size: 1.1rem;
         color: #fff;
-        background: #fb6542;
+        background: #004445;
         padding: 10px 10px;
         border-radius: 5px;
         display: inline-flex;
@@ -334,7 +333,7 @@
     .social a span {
         height: 40px;
         width: 40px;
-        background: #1a1a1a;
+        background: #333;
         color: #fff;
         line-height: 40px;
         text-align: center;
@@ -353,7 +352,7 @@
     .place a span {
         height: 40px;
         width: 40px;
-        background: #1a1a1a;
+        background: #333;
         color: #fff;
         line-height: 40px;
         text-align: center;
@@ -365,7 +364,7 @@
     .email a span {
         height: 40px;
         width: 40px;
-        background: #1a1a1a;
+        background: #333;
         color: #fff;
         line-height: 40px;
         text-align: center;
@@ -378,7 +377,7 @@
     .phone a span {
         height: 40px;
         width: 40px;
-        background: #1a1a1a;
+        background: #333;
         color: #fff;
         line-height: 40px;
         text-align: center;
@@ -439,7 +438,7 @@
     }
     
     .form-btn {
-        background: #fb6542;
+        background: #004445;
         color: #fff;
         text-align: center;
         height: 40px;
@@ -513,7 +512,7 @@
             position: fixed;
             width: 100%;
             height: 100vh;
-            background: #375e97;
+            background: #2c7873;
             top: 80px;
             left: -100%;
             text-align: center;
