@@ -878,7 +878,7 @@
             display: block;
             width: 30%;
         }
-        .start-btn {
+           .start-btn {
                 display: block;
                 align-items: center;
                 justify-content: center;
@@ -894,6 +894,10 @@
             .mission-statement {
                 display: grid;
                 grid-template-columns: 1fr;
+                padding: 80px;
+            }
+            .statement {
+                margin-top: 20px;
             }
             .contact-container {
                 height: 1000px;
