@@ -878,14 +878,8 @@
             display: block;
             width: 30%;
         }
-           .start-btn {
-                display: block;
-                align-items: center;
-                justify-content: center;
-            }
-            .show-modal {
-                right: 30%;
-                z-index: 1050!important;
+           .start-btn, .start-btn a{
+                display: none;
             }
             .profile {
                 text-align: center;
