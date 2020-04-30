@@ -883,6 +883,9 @@
                 align-items: center;
                 justify-content: center;
             }
+            .show-modal {
+                right: 30%;
+            }
             .profile {
                 text-align: center;
                 justify-content: center;
