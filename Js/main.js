@@ -3,10 +3,10 @@ let images = [];
 let time = 2500;
 
 
-images[0] = 'https://res.cloudinary.com/kemkem-dev/image/upload/v1588079854/wedd_trbkxl.jpg';
-images[1] = 'https://res.cloudinary.com/kemkem-dev/image/upload/v1588079803/int_b3r54n.jpg';
-images[2] = 'https://res.cloudinary.com/kemkem-dev/image/upload/v1588079774/banner2_a6qdtq.jpg';
-images[3] = 'https://res.cloudinary.com/kemkem-dev/image/upload/v1588079812/int3_hq8ai9.jpg';
+images[0] = 'https://res.cloudinary.com/kemkem-dev/image/upload/v1588256520/wedd_nze3dn.jpg';
+images[1] = 'https://res.cloudinary.com/kemkem-dev/image/upload/v1588253280/int_cyltcq.jpg';
+images[2] = 'https://res.cloudinary.com/kemkem-dev/image/upload/v1588253146/banner2_w4nseb.jpg';
+images[3] = 'https://res.cloudinary.com/kemkem-dev/image/upload/v1588253003/int3_b9yjkq.jpg';
 
 function changeImg() {
     document.slide.src = images[i];
@@ -21,3 +21,15 @@ function changeImg() {
 }
 
 window.onload = changeImg;
+
+$(document).ready(function() {
+    $('.start-btn').click(function() {
+        $('.modal-box').toggleClass("show-modal");
+        $('.start-btn').toggleClass("show-modal");
+    });
+
+    $('.fa-times').click(function() {
+        $('.modal-box').toggleClass("show-modal");
+        $('.start-btn').toggleClass("show-modal");
+    });
+});
