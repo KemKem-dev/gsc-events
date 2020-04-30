@@ -207,6 +207,7 @@
         font-family: var(--body-font);
         color: var(--gray-color);
         padding: 15px;
+        letter-spacing: 1px;
     }
     
     .btn-btn a {
