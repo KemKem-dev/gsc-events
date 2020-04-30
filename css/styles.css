@@ -813,27 +813,10 @@
         }
         nav ul li a:hover {
             background: none;
-            color: var(--primary-color);
+            color: #fff;
         }
         #check:checked~ul {
             left: 0;
-        }
-         #newsletter .button1 {
-            align-self: flex-start;
-            display: inline-flex;
-            padding: 10px 10px;
-            font-size: 1rem;
-            margin-top: 10px;
-            margin-bottom: 10px;
-        }
-        #newsletter h1 {
-            text-align: center;
-        }
-        #newsletter form input[type="email"] {
-            height: 35px;
-            font-size: 0.7rem;
-            width: 100%;
-            margin-bottom: 5px;
         }
         .service {
             text-align: center;
